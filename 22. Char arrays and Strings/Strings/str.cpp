@@ -24,14 +24,19 @@ int main(){
     // string str;
     // str.assign("Luxembourg");
     // // str.insert(2,"Hell");
-    // // str.erase(1, 2);
+    // s.erase(1, 2);
     // // str.replace(1, 2, "jolly");
     // // str.swap(s);
     // str.pop_back();
-    // // cout<<"Your string is "<<s<<endl;
+    int num = stoi(s);
+    num = num+6;
+    cout<<num;
+    // cout<<s.substr(1,2);
+    // cout<<"Your string is "<<s<<endl;
     // cout<<"Your string is "<<str<<endl;
     // cout<<s.data();
-    cout<<s.find("kha", 3, 3);
+    // cout<<s.find("kha", 3, 3);
+    // cout<<s[2];
 }
 
 // extract to string
