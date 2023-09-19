@@ -28,10 +28,10 @@ int main(){
     // // str.replace(1, 2, "jolly");
     // // str.swap(s);
     // str.pop_back();
-    int num = stoi(s);
-    num = num+6;
-    cout<<num;
-    // cout<<s.substr(1,2);
+    // int num = stoi(s);
+    // num = num+6;
+    // cout<<num;
+    cout<<s.substr(2, 2);
     // cout<<"Your string is "<<s<<endl;
     // cout<<"Your string is "<<str<<endl;
     // cout<<s.data();
