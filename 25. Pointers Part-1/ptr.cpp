@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int num = 5;
+    /*int num = 5;
     cout<<num<<endl;
     cout<<"Address of num :"<<&num<<endl;
     int *ptr = &num;
@@ -10,5 +10,10 @@ int main(){
     cout<<"ptr address: "<<ptr<<endl;
     cout<<"Size of num: "<<sizeof(num)<<endl;
     cout<<"Size of *ptr: "<<sizeof(*ptr)<<endl;
-    cout<<"Size of ptr: "<<sizeof(ptr)<<endl; //system dependent --> in some systems it gives 8 
+    cout<<"Size of ptr: "<<sizeof(ptr)<<endl; //system dependent --> in some systems it gives 8 */
+    int *p = 0;
+    int a = 10;
+    // *p = a; //will give runtime error
+    p = &a;
+    cout<<*p<<endl;
 }

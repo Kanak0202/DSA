@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int arr[10] = {1,5,3};
+    // int arr[10] = {1,5,3};
     // cout<<"Address of arr = arr: "<<arr<<endl;
     // cout<<"Address of arr = &arr: "<<&arr<<endl;
     // cout<<"Address of arr = &arr[0]: "<<&arr[0]<<endl;
@@ -33,7 +33,7 @@ int main(){
     /*arr = arr+1;
     cout<<arr;*/
 
-    int num=5;
+    /*int num=5;
     int *p = &num;
     cout<<"p: "<<p<<endl;
     cout<<"*p: "<<*p<<endl;
@@ -42,6 +42,10 @@ int main(){
     p = p+1;
     cout<<"p: "<<p<<endl;
     cout<<"*p: "<<*p<<endl;
-    cout<<"&p: "<<&p<<endl;
+    cout<<"&p: "<<&p<<endl;*/
+
+    // int a[3] = {1,2,3};
+    // int *p= a++;
+    // cout<<*p<<endl;
 
 }
